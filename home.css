@@ -74,14 +74,19 @@
 .content{
   position: relative;
   margin: 0px 110px;
-  padding: 220px 110px;
+  padding: 280px 40px;
 }
 .content li{
+  margin: 0px 10px;
   padding: 30px 30px;
-  margin:0px auto;
+  height: 5px;
+  width: 88px;
+  background: rgb(137, 236, 162);
   color: black;
+  font-weight: bold;
   font-size: x-large;
   font-family: sans-serif;
+  text-align: center;
 }
 .content li{
   display: inline-block;
@@ -89,12 +94,19 @@
 .content ul{
   position: absolute;
   list-style: none;
-  padding: 0;
-  margin: 250px;
+  margin: 240px;
   text-align: center;
+  padding: 30px;
 }
 .content1{
-  font-size: 25px;
-  position: absolute;
-  margin: 130px 550px;
+  list-style: none;
+  font-size: 35px;
+  margin: 130px 530px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  background: rgb(132, 164, 255);
+  height: 60px;
+  width: 250px;
 }
