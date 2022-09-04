@@ -47,7 +47,7 @@
 .content{
   background: rgb(236, 235, 235);
   margin-top: 50px;
-  height: 380px;
+  height: 350px;
 }
 .content h1{
   margin: 0px 300px;
@@ -68,9 +68,9 @@
 .t1{
   position: absolute;
   border-left: 1px solid rgb(87, 85, 85);
-  height: 275px;
+  height: 265px;
   margin: 0px 300px;
-  margin-top: 12px;
+  margin-top: 3px;
 }
 .link p{
   font-size: 17px;
