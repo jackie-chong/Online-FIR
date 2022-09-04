@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TRIPURA ONLINE F.I.R WEBSITE</title>
+        <link ref="stylesheet" href="form.css">
+    
+    </head>
+    <body>
+        <!---======================================nav bar===============================================-->
+        <header class="header" id="header">
+            <div class ="navbar">
+                <img src="logo/ashok sthamba.jpg" class="nav_logo">
+                        <div class ="logo">
+                            <h3>Government of tripura</h3>
+                            <p>Tripura police</p>
+                        </div>
+                        <ul>
+                            <li><a href ="home.html">HOME</a></li>
+                            <li><a href ="#">FIR STATUS</a></li>
+                            <li><a href ="#">CONTACT</a></li>  
+                        </ul>
+            </div>
+         </header>
+        <!--------------------FIR REPORT------------------------>
+        
+        <!---------------------------------------------PERSONAL DETAILS--------------------------------------->
+    <div class="personal_details" id="personal_details">
+            <form id="personal details" method="post">
+                <table>
+                    <tr>
+                        <h1>
+                            PERSONAL DETAILS
+                        </h1>
+                    </tr>
+                    <tr>
+                        <p>
+                            FULL NAME :
+                        </p>
+                        <li>
+                            <input type="text" name="">
+                        </li>
+                        <p>
+                            GENDER :
+                        </p>
+                        <li>
+                            <input type="radio" name="GENDER" >Male
+                            <input type="radio" name="GENDER">
+                            female
+                            <input type="radio">
+                            others
+                        </li>
+                        <p>
+                            AGE :
+                        </p>
+                        <li>
+                            <input type="number">
+                        </li>
+                    </tr>
+                   
+                </table>
+            </form>
+            </div>
+            <br><br>
+            <!--------------------------------------------------------ADDRESS--------------------------------------------------->
+            <div class="address" id="address">
+                <form id="address" method="post">
+                <table>
+                    <tr>
+                        <h1>
+                            ADDRESS
+                        </h1>
+                    </tr>
+                    <tr>
+                        <p>
+                            CONTACT ADDRESS :
+                        </p>
+                        <li>
+                            <input type="text">
+                        </li>
+                        <p>
+                            PIN :
+                        </p>
+                        <li>
+                            <input type="number">
+                        </li>
+                    </tr>
+                </table>
+            </form>
+
+            </div>
+            <br>
+            <!-----------------------------CONTACT DETAILS---------------------------------->
+            <div class="contact details" id="contact details">
+                <form id="contact details" method="post">
+                <table>
+                    <tr>
+                        <h1>
+                            CONTACT DETAILS
+                        </h1>
+                    </tr>
+                    <tr>
+                        <p>
+                            MOBILE NO :
+                        </p>
+                        <li>
+                            (+91)<input type="number" size="9" maxlength="10">
+                        </li>
+                        <p>
+                            EMAIL :
+                        </p>
+                        <li>
+                            <input type="email">
+                        </li>
+                    </tr>
+                </table>
+            </form>
+
+            </div>
+            <br>
+            <!------------------------------------------IDENTITY ATTACHMENT--------------------------------->
+            <div class="identity attachment" id="identity attachment">
+                <form id="identity attachment" method="post">
+                <table>
+                    <tr>
+                        <h1>
+                            IDENTITY ATTACHMENT
+                        </h1>
+                    </tr>
+                    <tr>
+                        <p>
+                            IDENTITY TYPE :
+                        </p>
+                        <li>
+                            <select name="identity_type" id="identity_type" style="width: 10%;">
+                                <option value selected>-SELECT-</option>
+                                <option value="passport">PASSPORT</option>
+                                <option value="aadhar number">Aadhar Number</option>
+                                <option value="pan card">PAN Card</option>
+                                <option value="employee card">Employee Card</option>
+                                <option value="voter id">Voter Id</option>
+                                <option value="other">Other</option>                                  
+                        </li>
+                        <p>
+                            IDENTITY DETAIL :
+                        </p>
+                        <li>
+                            <input type="text">  
+                        </li>
+                    </tr>
+                    <tr>
+                        <li>
+                            <input type="file">
+                        </li>
+                    </tr>
+                </table>
+            </form>
+
+            </div>
+            <br>
+            <!----------------------------PLACE OF OCCURANCE-------------------------->
+            <div class="place of occurance" id="place of occurance">
+                <form id="place of occurance" method="post">
+                <table>
+                    <tr>
+                        <h1>
+                            PLACE OF OCCURANCE
+                        </h1>
+                    </tr>
+                    <tr>
+                        <p>
+                            DISTRICT :
+                        </p>
+                        <li>
+                            <select name="district_type" id="district_type" style="width: 10%;">
+                                <option value selected>-SELECT-</option>
+                                <option value="gomati">GOMATI</option>
+                                <option value="khowai">KHOWAI</option>
+                                <option value="sipahijala">SIPAHIJALA</option>
+                                <option value="unakoti">UNAKOTI</option>
+                                <option value="dhalai">DHALAI</option>
+                                <option value="north tripura">NORTH TRIPURA</option>   
+                                <option value="south tripura">SOUTH TRIPURA</option>
+                                <option value="west tripura">WEST TRIPURA</option>
+                                                               
+                            </li>
+                        <p>
+                            Place Of Occurance/Police Station :
+                        </p>
+                        <li>
+                            <input type="text">  
+                        </li>
+                    </tr>
+                    
+                </table>
+            </form>
+
+            </div>
+            <br>
+            <!----------------------------------COMPLAIN DETAILS-------------------------------->
+            <div class="complain details" id="complain details">
+                <form id="complain details" method="post">
+                <table>
+                    <tr>
+                        <h1>
+                            COMPLAIN DETAILS
+                        </h1>
+                    </tr>
+                    <tr>
+                        <p>
+                            TOPIC :
+                        </p>
+                        <li>
+                            <select name="topic_type" id="topic_type" style="width: 10%;">
+                                <option value selected>-SELECT-</option>
+                                <option value="crime related">CRIIME RELATED</option>
+                                <option value="cyber related">CYBER RELATED</option>
+                                <option value="others/miscellaneous">OTHERS/MISCELLANEOUS</option>
+                            </li>
+                    </tr>
+                    <tr>
+                        <p>
+                            SUBJECT :
+                        </p>
+                        <li>
+                            <input type="text" name="subject" id="subject" maxlength="120" value="" class="form-control input-sm" style="width: 50% !important; height: 30%;" required="">
+                        </li>
+                    </tr>
+                    <tr>
+                        <p>
+                            DETAILS :
+                        </p>
+                        <li>
+                            <input type="text">
+                        </li>
+                    </tr>
+                    <tr>
+                        <li>
+                            <input type="file">
+                        </li>
+                    </tr>
+                </table>
+            </form>
+            </div>
+            <br>
+            <!------------------------------OTP-------------------------------->
+            <div class="otp" id="otp">
+                <form id="otp" method="post">
+                    <table>
+                    <tr>
+                        <h1>
+                            OTP
+                        </h1>
+                    </tr>
+                    <tr>
+                        <p>
+                            OTP :
+                        </p>
+                        <li>
+                            <input type="text">
+                        </li>
+                    </tr>
+                    
+                    <tr>
+                        <li>
+                            <input type="btn-verify-otp" type="button" value="verify otp" onclick="verifyotp();">
+                        </li>
+                    </tr>
+                    </table>
+                </form>
+            </div>
+            <br>
+            <!-------------------------SUBMIT/CANCEL---------------------->
+            <div class="submit/cancel" id="submit/cancel">
+                <form id="submit/cancel" method="post">
+                    <table>
+                        <tr>
+                            <li>
+                                <input class="button btn btn-success" type="submit" name="submit_x" value="Submit">
+                            </li>
+                        </tr>
+                        <tr>
+                            <li>
+                                <input class="button btn btn-danger" type="button" name="cancel" value="Cancel">
+                            </li>
+                        </tr>
+
+                    </table>
+                </form>
+            </div>
+
+
+        </body>
+</html>
