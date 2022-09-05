@@ -42,4 +42,171 @@
   transition: 0.4s ease-in-out;
   font-weight: bold;
   text-align: center;
+<<<<<<< HEAD
+=======
+}
+
+
+
+
+/*==================== HOME ====================*/
+.personal_details{
+  background: rgb(234, 240, 247);
+  margin-top: 80px;
+}
+.personal_details p{
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 300px;
+}
+.personal_details li{
+  list-style: none;
+  margin: 10px 500px;
+  padding: 10px;
+}
+.personal_details h1{
+  font-size: 20px;
+  background: rgb(216, 195, 228);
+}
+.address{
+  background: rgb(234, 240, 247);
+}
+.address p{
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 300px;
+}
+.address li{
+  list-style: none;
+  margin: 10px 500px;
+  padding: 10px;
+}
+.address h1{
+  font-size: 20px;
+  background: rgb(216, 182, 240);
+}
+.contact_details{
+  background: rgb(234, 240, 247);
+  margin: 0px 0px;
+}
+.contact_details p{
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 300px;
+}
+.contact_details li{
+  list-style: none;
+  margin: 10px 500px;
+  padding: 10px;
+}
+.contact_details h1{
+  font-size: 20px;
+  background: rgb(216, 182, 240);
+}
+.identity{
+  background: rgb(234, 240, 247);
+  margin: 0px 0px;
+}
+.identity p{
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 300px;
+}
+.identity li{
+  list-style: none;
+  margin: 10px 500px;
+  padding: 10px;
+}
+.identity h1{
+  font-size: 20px;
+  background: rgb(216, 182, 240);
+}
+.complain_details{
+  background:rgb(234, 240, 247);
+  margin: 0px 0px;
+}
+.complain_details p{
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 300px;
+}
+.complain_details li{
+  list-style: none;
+  margin: 10px 500px;
+  padding: 10px;
+}
+.complain_details h1{
+  font-size: 20px;
+  background: rgb(216, 182, 240);
+}
+.occurance{
+  background:rgb(234, 240, 247);
+  margin: 0px 0px;
+}
+.occurance p{
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 300px;
+}
+.occurance li{
+  list-style: none;
+  margin: 10px 500px;
+  padding: 10px;
+}
+.occurance h1{
+  font-size: 20px;
+  background:rgb(216, 182, 240);
+}
+.otp{
+  background: rgb(234, 240, 247);
+  margin: 0px 0px;
+}
+.otp p{
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 300px;
+}
+.otp li{
+  list-style: none;
+  margin: 10px 500px;
+  padding: 10px;
+}
+.otp h1{
+  font-size: 20px;
+  background: rgb(216, 182, 240);
+}
+.submit_cancel{
+  background: rgb(234, 240, 247);
+  margin: 0px 0px;
+}
+.submit_cancel p{
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 300px;
+}
+.submit_cancel li{
+  list-style: none;
+  height: 20px;
+  width: 60px;
+  background: rgb(247, 176, 71);
+  margin: 10px 510px;
+  padding: 10px;
+}
+.cancel li{
+  background: rgb(175, 46, 46);
+}
+.verify li{
+  background: rgb(170, 192, 231);
+  height: 20px;
+  width: 70px;
+  margin: 10px 510px;
+>>>>>>> 3f319cac6136d1af0e3fa2b7e0569ec5570485c4
 }

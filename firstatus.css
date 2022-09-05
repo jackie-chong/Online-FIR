@@ -1,0 +1,100 @@
+/*==================== NAV ====================*/
+.nav_logo{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+}
+.logo h3{
+  width: 90%;
+  margin: 0px 120px;
+  background: rgb(213, 218, 218);
+}
+.logo p{
+  margin: 10px 120px;
+  background: rgb(212, 216, 216);
+}
+.navbar ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px ;
+  text-align: right;
+  background: rgb(176, 231, 215);
+}
+.navbar div{
+  padding: 0px 0px;
+  height: 80px;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(7, 7, 7);
+}
+.navbar li{
+  display: inline-block;
+}
+.navbar li a{
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+  width: 150px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  transition: 0.4s ease-in-out;
+  font-weight: bold;
+  text-align: center;
+}
+/*==================== HOME ====================*/
+.link p{
+    text-align: center;
+    font-size: 20px;
+    margin: 35px;
+}
+
+.form {
+  text-align: center;
+  list-style: none;
+}
+.form p{
+  position: absolute;
+  font-size: 27px;
+  font-weight: bold;
+  margin: 0px 300px;
+}
+.form li{
+  position: absolute;
+  font-weight: bold;
+  margin: 23px 550px;
+}
+.form1 {
+  text-align: center;
+  list-style: none;
+}
+.form1 p{
+  position: absolute;
+  font-size: 27px;
+  font-weight: bold;
+  margin: 60px 300px;
+}
+.form1 li{
+  position: absolute;
+  font-weight: bold;
+  margin: 83px 550px;
+}
+.content{
+  background: rgb(236, 235, 235);
+  height:150px ;
+  padding: 70px;
+}
+.content p{
+  padding: 20px;
+}
+.btn1{
+  width: 160px;
+  height: 40px;
+  background-color: rgb(136, 42, 42);
+  margin: 160px 500px;
+  color:aliceblue;
+  font-size: 25px;
+  font-weight: bold;
+}
+

@@ -69,7 +69,7 @@
   margin: 230px 490px;
 }
 .home{
-  background-color: rgb(206, 227, 245);
+  background-color: rgb(210, 228, 243);
   height: 730px;
   width: 1504px;
   position: absolute;
@@ -82,6 +82,7 @@
   color: aliceblue;
   font-size: 28px;
   font-weight: bold;
+  border: none;
 }
 .btn2{
   width: 150px;
@@ -91,6 +92,7 @@
   color: aliceblue;
   font-size: 28px;
   font-weight: bold;
+  border: none;
 }
 .btn3{
   width: 150px;
@@ -100,6 +102,7 @@
   color: aliceblue;
   font-size: 28px;
   font-weight: bold;
+  border: none;
 }
 .btn4{
   width: 250px;
@@ -181,4 +184,17 @@
   display: inline;
   margin: 170px 50px;
   padding: 35px;
+}
+.disclaimer{
+  background: rgb(37, 37, 37);
+}
+.disclaimer h1{
+  color:aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+.disclaimer p{
+  text-align: center;
+  color: aliceblue;
+  height: 150px;
 }
